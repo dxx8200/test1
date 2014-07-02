@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigRoot>
+  <IOTranConfig>
+
+    <SerialConfigs>
+      <SerialConfig IOPort="0" Name="COM01" ConfigIP="192.168.1.10" ConfigPort="1092" DataPort="5001" Protocol="UDP"
+						  LocalIP="" LocalPort="7001" LRPort="7011" WaitTime="80" InterTime="200" MaxFrameLen="1024"
+						  VarName="" BaudRate="115200" DataBits="8" Parity="NONE" StopBits="1"/>
+      <SerialConfig IOPort="1" Name="COM02" ConfigIP="192.168.1.11" ConfigPort="1092" DataPort="5002" Protocol="UDP"
+						  LocalIP="" LocalPort="7002" LRPort="7012" WaitTime="80" InterTime="200" MaxFrameLen="1024"
+              VarName="" BaudRate="115200" DataBits="8" Parity="NONE" StopBits="1"/>
+      <SerialConfig IOPort="2" Name="COM03" ConfigIP="192.168.1.12" ConfigPort="1092" DataPort="5003" Protocol="UDP"
+						  LocalIP="" LocalPort="7003" LRPort="7013" WaitTime="80" InterTime="200" MaxFrameLen="1024"
+              VarName="" BaudRate="115200" DataBits="8" Parity="NONE" StopBits="1"/>
+      <SerialConfig IOPort="3" Name="NET01" ConfigIP="192.168.1.13" ConfigPort="1092" DataPort="5004" Protocol="UDP"
+						  LocalIP="" LocalPort="7004" LRPort="7014" WaitTime="80" InterTime="200" MaxFrameLen="1024"
+              VarName="" BaudRate="115200" DataBits="8" Parity="NONE" StopBits="1"/>
+    </SerialConfigs>
+
+    <CANConfigs>
+      <CANConfig IOPort="0" Name="CAN01" ConfigIP="192.168.10.2" ConfigPort="3000" DataPort="1025" Protocol="UDP"
+					   LocalIP="" LocalPort="30001" LRPort="30011" WaitTime="80"
+             VarName="" BaudRate="250" MessageId="0" FilterCode="0" FilterMask="0"/>
+      <CANConfig IOPort="1" Name="CAN02" ConfigIP="192.168.10.2" ConfigPort="3000" DataPort="1025" Protocol="UDP"
+					   LocalIP="" LocalPort="30002" LRPort="30012" WaitTime="80"
+             VarName="" BaudRate="250" MessageId="0" FilterCode="0" FilterMask="0"/>
+    </CANConfigs>
+
+    <EtherConfigs>
+      <EtherConfig IOPort="0" Name="NET01" ConfigIP="192.168.1.100" ConfigPort="1092" DataPort="5004" Protocol="UDP"
+						 LocalIP="" LocalPort="7005" LRPort="7015" WaitTime="80"
+             VarName="" SimIP="192.168.1.1" SimPort="1024" SimMask="255.255.255.0"/>
+    </EtherConfigs>
+  </IOTranConfig>
+
+
+</ConfigRoot>

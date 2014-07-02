@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigRoot>
+  <IOTranConfig>
+
+    <SerialConfigs>
+      <SerialConfig IOPort="0" ConfigIP="192.168.1.10" ConfigPort="1024" DataPort="1025" Protocol="UDP"
+                    LocalIP="" LocalPort="20001" WaitTime="80" InterTime="200" MaxFrameLen="1024"/>
+      <SerialConfig IOPort="1" ConfigIP="192.168.1.11" ConfigPort="1024" DataPort="1025" Protocol="UDP"
+                    LocalIP="" LocalPort="20002" WaitTime="80" InterTime="200" MaxFrameLen="1024"/>
+      <SerialConfig IOPort="2" ConfigIP="192.168.1.11" ConfigPort="1024" DataPort="1025" Protocol="UDP"
+                    LocalIP="" LocalPort="20002" WaitTime="80" InterTime="200" MaxFrameLen="1024"/>
+    </SerialConfigs>
+
+    <CANConfigs>
+      <CANConfig IOPort="0" ConfigIP="192.168.10.2" ConfigPort="1024" DataPort="1025" Protocol="UDP"
+                 LocalIP="" LocalPort="30001" WaitTime="80" />
+      <CANConfig IOPort="1" ConfigIP="192.168.10.2" ConfigPort="1024" DataPort="1025" Protocol="UDP"
+                 LocalIP="" LocalPort="30002" WaitTime="80"/>
+    </CANConfigs>
+
+    <EtherConfigs>
+      <EtherConfig IOPort="0" ConfigIP="192.168.1.100" ConfigPort="1024" DataPort="1025" Protocol="UDP"
+                   LocalIP="" LocalPort="40001" WaitTime="80" />
+    </EtherConfigs>
+  </IOTranConfig>
+
+
+</ConfigRoot>
