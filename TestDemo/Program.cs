@@ -162,6 +162,7 @@ namespace TestDemo
                     break;
             }
             return FormatVariable(key);
+
         }
         // Define the event handlers. 
         private static void OnChanged(object source, FileSystemEventArgs e)
